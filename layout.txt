@@ -1,0 +1,18 @@
+lobster_inventory/
+│
+├─ lib/
+│  ├─ main.dart
+│  ├─ home_page.dart
+│  ├─ tank_page.dart
+│  └─ models.dart
+│
+├─ web/
+│  ├─ index.html
+│  ├─ manifest.json
+│  ├─ icons/
+│  │   ├─ icon-192.png
+│  │   └─ icon-512.png
+│  └─ favicon.png
+│
+├─ pubspec.yaml
+└─ build/  ← Generated after `flutter build web`

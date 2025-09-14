@@ -1,0 +1,28 @@
+name: lobster_inventory
+description: A web/PWA Flutter app to track lobster inventory in multiple tanks.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  printing: ^5.12.0
+  pdf: ^3.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/favicon.png
+    - assets/icons/icon-192.png
+    - assets/icons/icon-512.png
+    - assets/icons/maskable_icon.png
